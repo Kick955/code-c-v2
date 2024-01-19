@@ -7,7 +7,7 @@
 
 #define MAX_MESSAGE_LENGTH 1024
 
-// Variables globales pour gérer l'état du message reçu
+// Variables pr gérer l'état du message reçu
 volatile int bit_count = 0;                   // Compteur de bits actuellement reçus pour le caractère en cours
 volatile char message[MAX_MESSAGE_LENGTH];    // Buffer pour stocker le message reçu
 volatile int current_bit = 0;                 // Dernier bit reçu (0 ou 1)
